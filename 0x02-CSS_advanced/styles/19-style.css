@@ -145,7 +145,7 @@ h6 {
 ul.row {
   margin: 0;
   padding: 0;
-  list-style: 0;
+  list-style: none;
 }
 .col-1-3 {
   width: 33.33%;
@@ -162,6 +162,6 @@ ul.row {
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
-ul.footer {
-  /* text-align: right; */
+ul .footer {
+  text-align: right;
 }
