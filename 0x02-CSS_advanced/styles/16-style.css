@@ -1,3 +1,7 @@
+/* Universal box sizing rule */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* Scroll to be as fluid as possible */
 html {
     scroll-behavior: smooth;
@@ -46,6 +50,11 @@ body{
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 :root{
     --color-primary: #d73953;

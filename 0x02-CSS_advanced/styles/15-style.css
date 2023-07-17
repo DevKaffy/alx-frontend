@@ -1,3 +1,7 @@
+/* Universal box sizing rule */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* Scroll to be as fluid as possible */
 html {
     scroll-behavior: smooth;
