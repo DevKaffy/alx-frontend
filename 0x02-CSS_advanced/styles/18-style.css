@@ -1,13 +1,10 @@
-/* Universal box sizing rule */
 *, *::before, *::after {
     box-sizing: border-box;
 }
-/* Scroll to be as fluid as possible */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-/* set foreground color to color-black */
 body, a{
     color: var(--color-black);
 }
@@ -23,7 +20,6 @@ a:hover{
 a:active{
     background-color: var(--color-light-grey);
 }
-/* body and anchor declarations and reset their color to text-color */
 body{
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
