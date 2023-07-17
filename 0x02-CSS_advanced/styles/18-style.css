@@ -117,10 +117,8 @@ float:right;
 .nav{
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-.nav ul{
     list-style: none;
+    text-align: center;
 }
 .nav .nav-item{
     font-family:var(--nav-item-font-family);
