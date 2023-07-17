@@ -119,6 +119,9 @@ float:right;
     padding: 0;
     text-align: center;
 }
+.nav ul{
+    list-style: none;
+}
 .nav .nav-item{
     font-family:var(--nav-item-font-family);
     font-weight:var(--nav-item-font-weight);
