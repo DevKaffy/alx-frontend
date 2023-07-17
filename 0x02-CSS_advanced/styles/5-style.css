@@ -1,6 +1,13 @@
+/* Scroll to be as fluid as possible */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+/* set foreground color to color-black */
 body, a{
     color: var(--color-black);
 }
+/* body and anchor declarations and reset their color to text-color */
 body{
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -31,8 +38,5 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
+
 
