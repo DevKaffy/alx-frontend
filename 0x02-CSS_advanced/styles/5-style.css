@@ -26,13 +26,13 @@ body{
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    font-size: 62.5%;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
 }
 
-html{
+html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
