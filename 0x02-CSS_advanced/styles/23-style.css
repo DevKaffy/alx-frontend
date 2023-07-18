@@ -192,5 +192,5 @@ padding: 0.5rem;
 }
 
 .social-link svg {
-  fill: vvar(--color-black);;
+  fill: var(--color-black);;
 }
