@@ -184,7 +184,7 @@ padding: 0.5rem;
   background-color: var(--color-black);
 }
 .footer-address {
-  color: var(--text-color);
+  color: var(--color-black);;
 }
 
 .social-link {
@@ -192,5 +192,5 @@ padding: 0.5rem;
 }
 
 .social-link svg {
-  fill: var(--text-color);
+  fill: vvar(--color-black);;
 }
