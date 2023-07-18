@@ -214,7 +214,7 @@ padding: 0.5rem;
   display: block;
 }
 .social-link svg {
-  fill: var(--text-color);
+  background-color: var(--text-color);
 }
 .card-services .card-title{
     margin: 0;
