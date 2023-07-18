@@ -192,5 +192,5 @@ padding: 0.5rem;
 }
 
 .social-link svg {
-  fill: var(--text-color);
+  background-color: var(--text-color);
 }
