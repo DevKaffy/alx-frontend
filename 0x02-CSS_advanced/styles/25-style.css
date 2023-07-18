@@ -101,11 +101,11 @@ body {
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
-  --nav-item-display: var(--inline-block);
+  --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem;
   --nav-item-link-hover: var(--color-primary);
   --section-tagline-margin: 0;
-  --button-display: var(--inline-block);
+  --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
   --button-border: 0.2rem solid var(--color-primary);
   --button-color: var(--color-black);
